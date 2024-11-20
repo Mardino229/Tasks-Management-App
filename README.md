@@ -39,6 +39,7 @@ Cette application Flutter utilisant sqlite comme base de donnée est un projet m
 - **Framework** : Flutter
 - **Langage** : Dart
 - **Architecture** : MVVM (Model-View-ViewModel)
+- **Base de donée** : Sqlite
 
 ---
 
