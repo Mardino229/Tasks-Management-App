@@ -1,16 +1,50 @@
-# tp_no_4
+# Application Flutter - Gestion de Tâches
 
-A new Flutter project.
+## Description
 
-## Getting Started
+Cette application Flutter utilisant sqlite comme base de donnée est une solution complète pour gérer efficacement vos tâches quotidiennes. Grâce à son interface simple et conviviale, vous pouvez suivre l'état de vos activités et interagir avec elles de manière intuitive.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. **Page de Connexion**
+   - Permet de se connecter à l'application à l'aide de vos identifiants.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. **Page de Création de Compte**
+   - Permet de créer un compte utilisateur avec lequel vous pourrez vous connecter et accéder à toutes les fonctionnalités.
+
+### 3. **Page d'Enregistrement de Tâches**
+   - Ajoutez de nouvelles tâches avec un titre et une description.
+
+### 4. **Page d'Accueil**
+   - Offre une vue d'ensemble avec des statistiques générales :
+     - Nombre total de tâches.
+     - Tâches non commencées.
+     - Tâches en cours.
+     - Tâches terminées.
+
+### 5. **Page de Liste des Tâches**
+   - Affiche toutes les tâches enregistrées sous forme de liste.
+   - Chaque tâche présente son **titre** et sa **description**.
+   - Actions disponibles pour chaque tâche :
+     - **Modification** : Modifier le titre et la description uniquement si la tâche est non commencée ou en cours (redirige vers une page de modification).
+     - **Commencer une tâche** : Si elle n’a pas encore commencé.
+     - **Finir une tâche** : Si elle est en cours.
+     - **Supprimer une tâche** : Retire la tâche définitivement.
+
+---
+
+## Technologies Utilisées
+- **Framework** : Flutter
+- **Langage** : Dart
+- **Architecture** : MVVM (Model-View-ViewModel)
+
+---
+
+## Installation
+   ```bash
+   git clone https://github.com/username/task-manager-flutter.git
+   cd Tasks-Management-App
+   flutter pub get
+   flutter run
