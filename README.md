@@ -2,7 +2,7 @@
 
 ## Description
 
-Cette application Flutter utilisant sqlite comme base de donnée est une solution complète pour gérer efficacement vos tâches quotidiennes. Grâce à son interface simple et conviviale, vous pouvez suivre l'état de vos activités et interagir avec elles de manière intuitive.
+Cette application Flutter utilisant sqlite comme base de donnée est un projet minmaliste de gestion de tâche. Grâce à son interface simple et conviviale, vous pouvez suivre l'état de vos activités et interagir avec elles de manière intuitive.
 
 ---
 
