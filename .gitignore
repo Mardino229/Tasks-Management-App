@@ -1,0 +1,14 @@
+ # Ignorer le dossier build
+ /build
+
+ # Ignorer les fichiers de configuration spécifiques à l'éditeur
+ .vscode/
+ .idea/
+
+ # Ignorer les fichiers de log
+ *.log
+
+ # Ignorer les fichiers de compilation
+ *.class
+ *.o
+ *.out
